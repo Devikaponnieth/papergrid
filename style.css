@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+   height: 88.4px;
+   
+}
+
+.navbar-nav a{
+    color:white !important;
+    font-size: 16px;
+}
+
+.logo{
+    width: 125px;
+    height: 26px;
+}
+
+.navbar-nav a:hover{
+    text-decoration: underline;
+}
+
+.bagicon{
+    margin-left: 20px;
+}
+.aboutdiv{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.about{
+    margin-left: 50px;
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.abhead{
+    color: #121212;
+    font-size: 24px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.abtxt{
+    font-size: 20px;
+    color: #121212B3;
+    margin-top: 20px;
+}
+
+.aboutus{
+    width: 141px;
+    height: 49.5px;
+    background-color: #121212;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    border-bottom: 1px solid grey;
+}
+
+.footer h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.footer a{
+    color: white;
+    font-size: 17.6px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.img1{
+    margin-top: 30px;
+}
+
+.copyright{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.copy{
+    font-size: 12px;
+    color: white;
+}
+
+.img{
+    width: 362px;
+    height: 362px;
+}
+
+.abimg{
+    width: 394px;
+    height: 528px;
+}
+
+.header1{
+ display: none;
+}
+
+#collapsediv{
+    width: 75vw;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    display: none;
+
+}
+
+#collapsediv a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+
+
+/* ....media queries.... */
+
+@media (max-width:1024px){
+    
+    .img{
+    width: 263px;
+    height: 263px;
+    }
+
+    .abimg{
+        width: 295.5px;
+        height: 395.5px;
+    }
+}
+
+@media (max-width:768px){
+    
+    .img{
+    width: 200px;
+    height: 200px;
+    }
+
+    .abimg{
+        width: 395px;
+        height: 529px;
+    }
+
+    .header1{
+        display: block;
+    }
+
+    .header{
+        display: none;
+    }
+}
+
+@media (max-width:426px){
+    
+    .img{
+    width: 180px;
+    height: 180px;
+    }
+
+    .abimg{
+        width: 370px;
+        height: 500px;
+    }
+}
+
+@media (max-width:376px){
+    
+    .img{
+    width: 168.1px;
+    height: 168.1px;
+    }
+
+    .abimg{
+        width: 340.6px;
+        height:457px;
+    }
+}
+
+@media (max-width:321px){
+    
+    .img{
+    width: 120.5px;
+    height: 120.5px;
+    }
+
+    .abimg{
+        width: 245.4px;
+        height:329px;
+    }
+}
